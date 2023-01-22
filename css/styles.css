@@ -55,21 +55,25 @@ body {
 }
 
 /* ---------contacts-number--------- */
+/* ---------contacts-email--------- */
 .contact-phone-number {
     font-style: normal;
     font-size: 16px;
+    line-height: 24px;
+    font-size: 16px;
     line-height: 1.5;
+    color: #434455;
 }
 .contact-phone-number:hover,
 .contact-phone-number:focus {
     color: var(--color-hover-effect);
 }
 
-/* ---------contacts-email--------- */
 .contact-email-adress {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
+    color: #434455; 
 }
 .contact-email-adress:hover,
 .contact-email-adress:focus {
