@@ -1,12 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-color);
 }
 :root {
+    --main-color:#434455;
     --main-dark-color:#2E2F42;
     --main-light-color:#F4F4FD;
     --color-hover-effect:#404BBF;
+    --main-blue-color: #4D5AE5;
+    --main-white-color: #FFFFFF;
+    --main-silvery-color: #E7E9FC;
 }
 .list {
     list-style: none;
@@ -39,7 +43,7 @@ body {
     color: var(--main-dark-color);
 }
 .span-logo {
-    color: #4D5AE5;
+    color: var(--main-blue-color);
 }
 
 /* ---------navigation-menu--------- */
@@ -59,10 +63,8 @@ body {
 .contact-phone-number {
     font-style: normal;
     font-size: 16px;
-    line-height: 24px;
-    font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--main-color);
 }
 .contact-phone-number:hover,
 .contact-phone-number:focus {
@@ -73,7 +75,7 @@ body {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455; 
+    color: var(--main-color);
 }
 .contact-email-adress:hover,
 .contact-email-adress:focus {
@@ -88,7 +90,7 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    color: #FFFFFF;
+    color: var(--main-white-color);
 
 }
 .main-button {
@@ -96,8 +98,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #4D5AE5;
+    color: var(--main-white-color);
+    background: var(--main-blue-color);
     cursor: pointer;
 }
 .main-button:hover,
@@ -119,6 +121,12 @@ body {
 }
 
 /* ---------services-section--------- */
+.services-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--main-dark-color)
+}
 .services-img {
     width: 360px;
     height: 300px;
@@ -128,8 +136,14 @@ body {
 .team {
     background: var(--main-light-color);
 }
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--main-dark-color);
+}
 .team-item {
-    background: #FFFFFF;
+    background: var(--main-white-color);
 }
 .team-img {
     width: 264px;
@@ -144,6 +158,7 @@ body {
 .team-text {
     font-size: 16px;
     line-height: 1.5;
+    color: var(--main-color);
 }
 
 /* ---------footer--------- */
@@ -157,23 +172,24 @@ body {
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
-    color: #E7E9FC;
+    color: var(--main-silvery-color);
 }
 
 /* ---------porfolio-section-btn--------- */
 .portfolio-btn {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: var(--main-blue-color);
     background: var(--main-light-color);
     cursor: pointer;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
     background: var(--color-hover-effect);
-    color: #FFFFFF;
+    color: var(--main-white-color);
 }
 
 /* ---------porfolio-img--------- */
@@ -188,6 +204,7 @@ body {
     color: var(--main-dark-color);
 }
 .portfolio-text {
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 24px; 
 }
